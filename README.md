@@ -1,1 +1,194 @@
-# Cours JS avance
+# Plan de cours général
+
+## JavaScript
+
+## Plan du Cours sur la Portée en JavaScript
+
+1. **Introduction**
+    - Définition de la portée des variables
+    - Importance de comprendre la portée pour écrire un code robuste
+
+2. **Portée des Variables**
+    - Recherche des variables dans le scope courant
+    - Remontée des scopes en cas de non-définition
+    - Erreur `ReferenceError` en cas de non-définition
+
+3. **Variables et Blocs**
+    - Comprendre la portée de `var` et son utilisation obsolète
+    - Introduction de `let` et `const` pour la portée de bloc
+
+4. **Temporal Dead Zone (TDZ)**
+    - Période entre le début d'une portée et la déclaration effective d'une variable
+    - Accès à une variable pendant la TDZ provoque une `ReferenceError`
+
+5. **Portée Globale et Locale**
+    - Portée globale : accessibilité partout dans le code
+    - Portée locale (fonction) : accessible uniquement à l'intérieur de la fonction
+
+6. **Utilisation de `const` pour les Constantes**
+    - Définir une constante avec `const`
+    - Immutabilité des constantes
+
+7. **Conclusion**
+    - Importance de la compréhension
+  
+## Plan sur les Fonctions en JavaScript
+
+### Introduction
+- Les fonctions sont fondamentales en JavaScript pour structurer le code, encapsuler la logique et créer des blocs réutilisables.
+
+### Fonctions Nomées et Expressions de Fonction
+
+1. **Fonctions Nomées**
+   - Déclarées avec un nom spécifié lors de la déclaration.
+   - Peuvent être utilisées avant leur déclaration.
+
+2. **Expressions de Fonction**
+   - Assignées à une variable ou à une propriété d'objet.
+   - Peuvent être anonymes ou nommées.
+
+### Fonctions Fléchées
+1. **Syntaxe de Base**
+   - Syntaxe concise pour les fonctions.
+
+2. **Utilisation avec un seul Paramètre**
+   - Parenthèses optionnelles si la fonction prend un seul paramètre.
+
+3. **Utilisation avec `this`**
+   - Pas de `this` propre, hérite du `this` du contexte.
+
+4. **Avantages**
+   - Syntaxe concise et `this` lexical.
+
+### Hoisting avec les Fonctions
+1. **Hoisting avec les Fonctions Nomées**
+   - Déclarations de fonctions sont déplacées vers le haut.
+
+2. **Hoisting avec les Expressions de Fonction**
+   - Dépend de la manière dont la variable est déclarée.
+
+3. **Hoisting avec les Fonctions Fléchées**
+   - Ne sont pas hoistées comme les fonctions nommées.
+
+## Plan sur les Closures en JavaScript
+
+### 1. Introduction
+   - Définition des Closures
+   - Importance dans JavaScript
+   
+### 2. Création de Closures
+   - Mécanisme de création
+   - Utilisation du constructeur `Promise`
+   
+### 3. Utilisation des Closures
+   - Encapsulation
+   - Création de fonctions partielles
+   
+### 4. Gestion de la Mémoire
+   - Impact sur la collecte des déchets
+   
+### 5. Exercices Pratiques
+   - Closure Basique
+   - Counter Closure
+   - Task Closure
+   - Cache Closure
+
+### 6. Conclusion
+   - Récapitulation des points clés
+   - Importance de la compréhension des Closures en programmation JavaScript.
+  
+## Plan sur les Objets et Prototypes en JavaScript
+
+### 1. Fonction Constructeur
+   - Définition et rôle des fonctions constructeurs.
+   - Création d'objets à l'aide de fonctions constructeurs.
+   - Exemple de fonction constructeur pour la création d'objets `Person`.
+
+### 2. Effet de Bord
+   - Compréhension de l'effet de bord lié à l'utilisation du mot-clé `this` dans une fonction constructeur.
+   - Risques associés et solutions, comme l'utilisation de `bind` ou de fonctions fléchées.
+
+### 3. Introduction à la Notion de Prototype
+   - Explication du concept de prototype.
+   - Utilisation de la propriété `__proto__` pour pointer vers le prototype d'un objet.
+   - Partage des méthodes entre objets grâce aux prototypes.
+
+### 4. Exercice Prototype Average
+   - Création d'une fonction constructeur `User` avec propriétés et méthodes.
+   - Utilisation de la notion de prototype pour partager la méthode `calculateAverage`.
+   - Application de la méthode sur plusieurs instances de `User`.
+
+## Plan du Cours sur la Destructuration d'Objets et de Tableaux en JavaScript
+
+## 1. Introduction à la Destructuration
+   - Définition de la destructuration.
+   - Objectif : Extraire des valeurs d'objets et de tableaux de manière concise.
+
+## 2. Destructuration d'Objets
+   ### Exemple 1
+   - Syntaxe de base de la destructuration d'objets.
+   - Utilisation pour extraire des propriétés d'un objet.
+   ### Exemple 2
+   - Utilisation d'alias lors de la destructuration d'objets.
+   - Renommer des variables pendant la destructuration.
+
+## 3. Destructuration de Tableaux
+   ### Exemple 1
+   - Syntaxe de base de la destructuration de tableaux.
+   - Extraire des éléments individuels d'un tableau.
+   ### Exemple 2
+   - Ignorer des éléments indésirables lors de la destructuration.
+   - Utilisation de la syntaxe `...` pour rassembler les éléments restants.
+
+## 4. Destructuration des Paramètres de Fonction
+   - Utilisation de la destructuration pour déstructurer les paramètres d'une fonction.
+   - Exemple avec une fonction `printPersonInfo`.
+
+## 5. Assignation avec Destructuration
+   - Utilisation de la destructuration dans le cadre de l'assignation de valeurs à des variables.
+   - Exemple avec les variables `a` et `b`.
+
+## 6. Exercices
+   ### Exercice 1: Destructuration d'Objets
+   - Extraire les valeurs `name`, `age`, et `grade` d'un objet `student`.
+   ### Exercice 2: Destructuration de Tableaux
+   - Extraire les valeurs `firstFruit` et `secondFruit` d'un tableau `fruits`.
+   ### Exercice 3: Assignation avec Destructuration
+   - Créer les variables `x` et `y` et leur assigner les valeurs `5` et `10`.
+   ### Exercice 4: Destructuration dans les Paramètres de Fonction
+   - Créer une fonction `printPerson` qui imprime les informations d'une personne.
+   ### Exercice 5: Destructuration avec Valeurs par Défaut
+   - Extraire `apiUrl` et `timeout` d'un objet `config` avec des valeurs par défaut.
+
+## Plan TypeScript 
+
+## Introduction à TypeScript
+## POO
+# Sommaire
+
+1. Introduction à la POO
+   - Motivation
+   - Concepts fondamentaux de la POO
+   
+2. L'encapsulation
+   - Exemple avec une classe Duck
+   - Exercice getter et setter
+   
+3. Héritage
+   - Exemple d'héritage entre Post et Comment
+   - Code en TypeScript
+   
+4. Polymorphisme
+   - Exemple avec les classes Geometry et Square
+   
+5. Les Interfaces en TypeScript
+   - Déclaration d'une Interface
+   - Implémentation avec la classe Circle
+   - Interface dans le polymorphisme
+   - Exercice formes géométriques
+   - Interface segregation ISP
+   
+6. Classe abstraite
+   - Déclaration d'une Classe Abstraite
+   - Exemple avec la classe Shape
+   - Utilisation des classes dérivées
