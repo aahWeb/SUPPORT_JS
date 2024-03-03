@@ -34,8 +34,8 @@ for (let j = 0; j < 10; j++) {}
 console.log(j); // ReferenceError: j is not defined
 ```
 
->[!WARING]
-> Rappelons la portée de var, son utilisation est obsolète.
+>[!WARNING]
+> Rappelons la portée de `var`, son utilisation est obsolète.
 
 ```js
 function foo() {
@@ -59,7 +59,7 @@ console.log(x); // Affiche 5
 
 ### Pour les constantes 
 
-Le mot réservé du langage JS **const** permet de définir une constante à assignation unique. Notez que vous êtes obligé de lui donner une valeur lors de sa définition. Une constante ne peut être re-définie.
+Le mot réservé du langage JS **`const`** permet de définir une constante à assignation unique. Notez que vous êtes obligé de lui donner une valeur lors de sa définition. Une constante ne peut être re-définie.
 
 ```js
 
