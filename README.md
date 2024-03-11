@@ -1,5 +1,7 @@
 # Plan de cours général
 
+Notez que la première partie du cours, Introduction : Portée des variables, Variables et Blocs, TDZ, portée globale et locale, ainsi que const, est facultative. Assurez-vous que les élèves maîtrisent bien ces notions avant de passer aux chapitres suivants, sans négliger cette partie.
+
 ## JavaScript
 
 ## Plan du Cours sur la Portée en JavaScript
