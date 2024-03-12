@@ -164,6 +164,52 @@ La partie TypeScript est plus importante.
    ### Exercice 5: Destructuration avec Valeurs par Défaut
    - Extraire `apiUrl` et `timeout` d'un objet `config` avec des valeurs par défaut.
 
+Bien sûr, voici un sommaire plus clair pour votre cours sur l'asynchrone en JavaScript :
+
+## Plan du Cours Cours sur l'Asynchrone en JavaScript
+
+## 1. Introduction au JavaScript Asynchrone
+   A. Définition des opérations asynchrones
+   B. Importance dans le développement web
+
+## 2. Concepts Clés
+   A. Callback
+   B. Promesses (Promises)
+   C. Async/Await
+
+## 3. Exemples
+   A. Callbacks
+   B. Promesses
+   C. Async/Await
+
+## 4. Exercices
+   A. Exercice 1: Utilisation de Callbacks
+   B. Exercice 2: Conversion en Promesses
+   C. Exercice 3: Utilisation d'Async/Await
+   D. Exercice 4: Simulation d'une API
+   E. Exercice 5: Travaux Pratiques Avancés
+   F. Exercice 6: Concaténation Asynchrone
+
+## Plan de cours sur l'assignation / destructuration
+
+## 1. Introduction à la Destructuration d'Objets
+   A. Définition de la destructuration d'objets
+   B. Avantages et utilité dans le code
+
+## 2. Exemples Pratiques de Destructuration d'Objets
+   A. Exemple 1 : Destructuration Simple
+   B. Exemple 2 : Destructuration avec Alias
+
+## 3. Destructuration de Tableaux en JavaScript
+   A. Exemple 1 : Destructuration de Tableaux
+   B. Exemple 2 : Ignorer des Éléments Indésirables
+
+## 4. Destructuration des Paramètres de Fonction
+   A. Exemple : Destructuration des Paramètres
+
+## 5. Assignation avec Destructuration
+   A. Exemple : Assignation avec Destructuration
+
 ## Plan TypeScript 
 
 ## Introduction à TypeScript
