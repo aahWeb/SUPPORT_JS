@@ -101,6 +101,89 @@ Refaire l'exercice 2 en utilisant `async/await` pour gérer la promesse.
    - **Exercice 2: Conversion en Promesses**: Transformation de l'exercice précédent en utilisant des promesses.
    - **Exercice 3: Utilisation d'Async/Await**: Refonte de l'exercice 2 en utilisant `async/await`.
 
+
+## Exercice 4 simulation d'une API
+
+:rocket: Les commentaires dans le code indiquent les parties que vous devez compléter.
+
+- getAll
+  
+:rocket: **Étape 1**: Créez une fonction getAll qui retourne une promesse.
+Utilisez setTimeout pour simuler un délai de chargement de 2 secondes.
+
+```js
+
+function getAll() {
+  return new Promise((resolve, reject) => {
+   // TODO
+  });
+}
+```
+
+- fetchData
+  
+:rocket: **Étape 2**: Créez une fonction fetchData qui utilise getAll.
+Utilisez then et catch pour gérer le succès et l'erreur.
+
+```js
+
+function fetchData() {
+  // TODO: Affichez un message "Début du chargement des données..."
+
+  // TODO: Utilisez getAll() avec then pour gérer le succès
+  // TODO: Utilisez catch pour gérer l'erreur
+  // TODO: Utilisez finally pour afficher un message "Fin du chargement des données."
+}
+```
+
+:rocket: **Étape 3**: Appelez la fonction fetchData pour tester votre implémentation.
+Vérifiez la console pour voir les messages de début, de succès ou d'erreur, et de fin.
+
+:rocket: **Etape 4:** Ajoutez une fonction displayData(data) qui affiche les données dans votre application.
+Modifiez la fonction then de fetchData pour appeler displayData avec les données récupérées.
+
+:rocket: **Etape 5:**  Ajoutez une gestion d'erreur spécifique dans catch pour traiter différentes erreurs.
+
+:rocket: **Etape 6:** Ajoutez une interface utilisateur simple (peut être en HTML/CSS) pour afficher les données.
+
+
+## Exercice 5 Travaux Pratiques Avancés
+
+:rocket: **Objectif :** Ce TP vise à approfondir votre compréhension des promesses en JavaScript en simulant la gestion de tâches asynchrones. Vous utiliserez les concepts de base des promesses ainsi que `Promise.all` pour exécuter plusieurs tâches en parallèle.
+
+**Étape 1 : Simulation de tâche asynchrone**
+
+Créez une fonction asynchrone `simulateTask` qui simule une tâche asynchrone. Utilisez `setTimeout` pour simuler une durée variable entre 1 et 5 secondes. La fonction doit renvoyer une promesse qui se résout avec le nom de la tâche.
+
+**Étape 2 : Exécution de plusieurs tâches en parallèle**
+
+Créez une fonction asynchrone `runTasks` qui utilise `Promise.all` pour exécuter plusieurs tâches en parallèle. Les tâches à exécuter sont les suivantes : 'Tâche 1', 'Tâche 2', 'Tâche 3'. Affichez un message au début de l'exécution, puis utilisez `Promise.all` pour gérer les tâches en parallèle. Affichez les résultats si toutes les tâches se terminent avec succès, sinon, gérez l'erreur de manière appropriée. Enfin, affichez un message à la fin de l'exécution.
+
+**Étape 3 : Testez votre implémentation**
+
+Appelez la fonction `runTasks` pour tester votre implémentation. Vérifiez la console pour voir les messages de début, de succès ou d'erreur, et de fin.
+
+**Étape 4 : fonction displayResults** 
+
+- Ajoutez une fonction `displayResults(results)` qui affiche les résultats des tâches dans votre application. Modifiez la fonction `runTasks` pour appeler `displayResults` avec les résultats obtenus.
+
+- Ajoutez une fonction asynchrone `handleError(error)` pour gérer les erreurs de manière spécifique. Modifiez la fonction `runTasks` pour appeler `handleError` en cas d'erreur.
+
+- Utilisez `async/await` pour créer une séquence de tâches où la tâche suivante dépend du résultat de la précédente.
+
+## Exercice 6 concat
+
+Vous disposez d'un tableau de chaînes de caractères. 
+Créez une fonction asynchrone qui prend le tableau ci-dessous en entrée et retourne la concaténation de ces chaînes dans l'ordre. Cependant, chaque concaténation doit être effectuée de manière asynchrone avec une pause de 1 seconde entre chaque concaténation. 
+
+:pill: Utilisez des promesses pour gérer l'asynchrone.
+
+- les données de départ.
+
+```js
+const words = ['Bonjour', ' ', 'le', ' ', 'monde']
+```
+
 ### 5. Conclusion
    - Récapitulation des concepts clés de l'asynchrone en JavaScript.
    - Application des connaissances dans des scénarios pratiques.
