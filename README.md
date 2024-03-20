@@ -210,6 +210,56 @@ Bien sûr, voici un sommaire plus clair pour votre cours sur l'asynchrone en Jav
 ## 5. Assignation avec Destructuration
    A. Exemple : Assignation avec Destructuration
 
+Voici le plan pour ce cours :
+
+## Introduction aux structures de données et méthode sur les tableaux
+
+## 1. Les tableaux
+   - Définition d'un tableau en JavaScript.
+   - Syntaxe pour déclarer et initialiser un tableau.
+   - Introduction à la manipulation des tableaux.
+
+   ### Exercices :
+   1. Exercice sur la référence d'array.
+   2. Exercice de copie de population.
+
+## 2. Les méthodes de manipulation de tableau
+   - Copie de tableau.
+   - Utilisation de la méthode `map` pour transformer les éléments d'un tableau.
+
+   ### Exercices :
+   1. Utilisation de la méthode `map` pour copier un tableau de fruits.
+   2. Exercice sur l'élévation au carré des nombres.
+   3. Exercice de multiplication de nombres.
+
+## 3. La méthode `filter` pour les tableaux
+   - Introduction à la méthode `filter`.
+   - Syntaxe et utilisation de base.
+   - Exercices corrigés pour illustrer différentes utilisations de `filter`.
+
+   ### Exercices :
+   1. Filtrer les nombres pairs.
+   2. Filtrer les noms de plus de 5 caractères.
+   3. Filtrer les éléments supérieurs à une valeur donnée.
+   4. Filtrer les mots commençant par une lettre donnée.
+   5. Filtrer les éléments basés sur une condition complexe.
+
+## 4. Les méthodes `spread` et `Map`
+   - Utilisation de la méthode `spread` pour copier un tableau.
+   - Présentation de l'objet `Map` et de ses méthodes.
+
+   ### Exercice :
+   1. Exercice de calcul de la moyenne et de mise à jour des mentions avec l'utilisation d'un `Map`.
+
+## 5. L'objet `Set`
+   - Présentation de l'objet `Set` pour stocker des valeurs uniques.
+   - Présentation de ses méthodes principales.
+
+## 6. Exercices supplémentaires
+   - Exercice de comptage de lettres dans une chaîne.
+   - Exercice de récupération de numériques dans une chaîne.
+   - Exercice avancé d'analyse de données sur une population fictive.
+
 ## Plan TypeScript 
 
 ## Introduction à TypeScript
