@@ -1,8 +1,12 @@
 # Plan de cours général
 
-Notez que la première partie du cours, Introduction : Portée des variables, Variables et Blocs, TDZ, portée globale et locale, ainsi que const, est facultative. Assurez-vous que les élèves maîtrisent bien ces notions avant de passer aux chapitres suivants, sans négliger cette partie.
+Notez que la première partie du cours, "Introduction : Portée des variables, Variables et Blocs, TDZ, portée globale et locale, ainsi que const", est facultative. Assurez-vous que les élèves maîtrisent bien ces notions avant de passer aux chapitres suivants, sans négliger cette partie.
 
-La partie TypeScript est plus importante.
+La section sur les prototypes est assez détaillée ; il est impératif de l'approfondir en CDA.
+
+De même, la partie sur l'asynchrone est fondamentale ; veillez à la présenter de manière exhaustive, en y incluant des exemples ou des exercices choisis avec soin.
+
+La section sur TypeScript revêt une importance particulière pour introduire les notions de base sur l'objet. N'oubliez pas de rappeler les concepts de SOLID.
 
 ## JavaScript
 
